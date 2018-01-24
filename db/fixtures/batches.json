@@ -6,17 +6,17 @@
     "name": "Some Name",
     "photo": "https://picsum.photos/200/300?image=0",
     "evaluations": [{
-      "createdAt": "01-01-2018",
+      "createdDate": "01-01-2018",
       "color": "red",
       "remark": "He doesent know basic"
       },
       {
-        "createdAt": "02-01-2018",
+        "createdDate": "02-01-2018",
         "color": "green",
         "remark": " lerned a lot"
       },
       {
-        "createdAt": "03-01-2018",
+        "createdDate": "03-01-2018",
         "color": "orange",
         "remark": "He relaxed"
       }
@@ -26,17 +26,17 @@
       "name": "Another Person",
       "photo": "https://picsum.photos/200/300?image=1",
       "evaluations": [{
-        "createdAt": "01-01-2018",
+        "createdDate": "01-01-2018",
         "color": "red",
         "remark": "Not aware how Json works"
         },
         {
-          "createdAt": "02-01-2018",
+          "createdDate": "02-01-2018",
           "color": "red",
           "remark": "Still not progressing"
         },
         {
-          "createdAt": "03-01-2018",
+          "createdDate": "03-01-2018",
           "color": "red",
           "remark": "Defenetely in problem"
         }
@@ -52,17 +52,17 @@
       "name": "Miss Smart",
       "photo": "https://picsum.photos/200/300?image=2",
       "evaluations": [{
-        "createdAt": "01-01-2018",
+        "createdDate": "01-01-2018",
         "color": "red",
         "remark": "Not confident enough"
         },
         {
-          "createdAt": "02-01-2018",
+          "createdDate": "02-01-2018",
           "color": "green",
           "remark": "Becoming aware of her own programing skils"
         },
         {
-          "createdAt": "03-01-2018",
+          "createdDate": "03-01-2018",
           "color": "orange",
           "remark": "Need to practice more react"
         }
@@ -72,17 +72,17 @@
         "name": "Dutch Man",
         "photo": "https://picsum.photos/200/300?image=4",
         "evaluations": [{
-          "createdAt": "01-01-2018",
+          "createdDate": "01-01-2018",
           "color": "red",
           "remark": "Having problems with mongoose db"
           },
           {
-            "createdAt": "02-01-2018",
+            "createdDate": "02-01-2018",
             "color": "red",
             "remark": "Still having problem with mongoose"
           },
           {
-            "createdAt": "03-01-2018",
+            "createdDate": "03-01-2018",
             "color": "red",
             "remark": "Still not getting how DB works"
           }
