@@ -1,0 +1,93 @@
+[{
+  "name": "Batch 13",
+  "startingAt": "01-01-2018",
+  "endingAt": "01-02-2018",
+  "students": [{
+    "name": "Some Name",
+    "photo": "https://picsum.photos/200/300?image=0",
+    "evaluations": [{
+      "createdDate": "01-01-2018",
+      "color": "red",
+      "remark": "He doesent know basic"
+      },
+      {
+        "createdDate": "02-01-2018",
+        "color": "green",
+        "remark": " lerned a lot"
+      },
+      {
+        "createdDate": "03-01-2018",
+        "color": "orange",
+        "remark": "He relaxed"
+      }
+    ]
+    },
+    {
+      "name": "Another Person",
+      "photo": "https://picsum.photos/200/300?image=1",
+      "evaluations": [{
+        "createdDate": "01-01-2018",
+        "color": "red",
+        "remark": "Not aware how Json works"
+        },
+        {
+          "createdDate": "02-01-2018",
+          "color": "red",
+          "remark": "Still not progressing"
+        },
+        {
+          "createdDate": "03-01-2018",
+          "color": "red",
+          "remark": "Defenetely in problem"
+        }
+      ]
+    }
+  ]
+  },
+  {
+    "name": "Batch 12",
+    "startingAt": "01-01-2018",
+    "endingAt": "01-02-2018",
+    "students": [{
+      "name": "Miss Smart",
+      "photo": "https://picsum.photos/200/300?image=2",
+      "evaluations": [{
+        "createdDate": "01-01-2018",
+        "color": "red",
+        "remark": "Not confident enough"
+        },
+        {
+          "createdDate": "02-01-2018",
+          "color": "green",
+          "remark": "Becoming aware of her own programing skils"
+        },
+        {
+          "createdDate": "03-01-2018",
+          "color": "orange",
+          "remark": "Need to practice more react"
+        }
+      ]
+      },
+      {
+        "name": "Dutch Man",
+        "photo": "https://picsum.photos/200/300?image=4",
+        "evaluations": [{
+          "createdDate": "01-01-2018",
+          "color": "red",
+          "remark": "Having problems with mongoose db"
+          },
+          {
+            "createdDate": "02-01-2018",
+            "color": "red",
+            "remark": "Still having problem with mongoose"
+          },
+          {
+            "createdDate": "03-01-2018",
+            "color": "red",
+            "remark": "Still not getting how DB works"
+          }
+        ]
+      }
+    ]
+  }
+]

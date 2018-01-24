@@ -1,13 +1,19 @@
 const express = require('express')
 const bodyParser = require('body-parser')
+const passport = require('./config/auth')
 
-const { batches, users, essions,}
+const { batches, users, students}
 
 const PORT = process.env.PORT || 3030
 
 let app = express()
   .use(bodyParser.urlencoded({ extended: true }))
   .use(bodyParser.json())
+  .use(passport.initialize())
+
+  .use (batches)
+  .use (users)
+  .use (students)
 
 app.use(( req,res,next) => {
   const error = new Error('Not Found')
